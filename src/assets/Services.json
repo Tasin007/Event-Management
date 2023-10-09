@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "name": "Yoga Sessions",
+      "image": "https://i.ibb.co/MCr0566/yoga.jpg",
+      "price": "$50",
+      "description": "Revitalize your body and soul with our yoga sessions.",
+      "buttonText": "Book Now"
+    },
+    {
+      "id": 2,
+      "name": "Meditation Retreats",
+      "image": "https://i.ibb.co/r3LNFCs/meditation.jpg",
+      "price": "$120",
+      "description": "Achieve tranquility and peace with our meditation retreats.",
+      "buttonText": "Book Now"
+    },
+    {
+      "id": 3,
+      "name": "Nutrition Workshops",
+      "image": "https://i.ibb.co/ZBn7Rj8/nutritions.jpg",
+      "price": "$40",
+      "description": "Learn about balanced diets and proper nutrition.",
+      "buttonText": "Book Now"
+    },
+    {
+      "id": 4,
+      "name": "Fitness Bootcamps",
+      "image": "https://i.ibb.co/2Y2bG52/fitness.jpg",
+      "price": "$70",
+      "description": "Intense fitness sessions to get you in shape.",
+      "buttonText": "Book Now"
+    },
+    {
+      "id": 5,
+      "name": "Wellness Webinars",
+      "image": "https://i.ibb.co/0G7CwQf/Wellness.jpg",
+      "price": "$20",
+      "description": "Attend online sessions on various health topics.",
+      "buttonText": "Book Now"
+    },
+    {
+      "id": 6,
+      "name": "Therapeutic Massages",
+      "image": "https://i.ibb.co/hVggL2B/Massages.jpg",
+      "price": "$90",
+      "description": "Relax and rejuvenate with our therapeutic massages.",
+      "buttonText": "Book Now"
+    }
+  ]
+  
