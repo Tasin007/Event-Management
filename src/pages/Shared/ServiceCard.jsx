@@ -1,5 +1,11 @@
+import { Link } from "react-router-dom";
+
+
 const ServiceCard = ({ service }) => {
+
+  const id = service.id;
   return (
+    
     <>
       <div data-aos="fade-down-right" className="card w-96 bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
@@ -14,7 +20,9 @@ const ServiceCard = ({ service }) => {
 
           <p>{service.description}</p>
           <div className="card-actions flex gap-10 items-center">
+            <Link to={`/service_details/${id}`}>
             <button className="btn btn-primary">{service.buttonText}</button>
+            </Link>
 
             <p className="text-2xl font-semibold text-primary">
               {service.price}
@@ -22,7 +30,9 @@ const ServiceCard = ({ service }) => {
           </div>
         </div>
       </div>
+      
     </>
+    
   );
 };
 
