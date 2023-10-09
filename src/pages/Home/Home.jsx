@@ -7,25 +7,27 @@ import services from "../../assets/Services.json";
 import FAQ from "../Shared/FAQ";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Element } from 'react-scroll';
+
 AOS.init();
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <Banner />
       <div className="mt-10">
         <h1 className="text-4xl text-center font-bold text-sky-950">Services</h1>
       </div>
 
-      <div className="flex flex-wrap justify-center p-5 gap-5 mb-10">
+      <Element name="serviceCard" className="flex flex-wrap justify-center p-5 gap-5 mb-10">
         {services.map((service) => (
           <ServiceCard key={service.id} service={service} />
         ))}
-      </div>
+      </Element>
 
-      <Review/>
-      <FAQ/>
+      <Review />
+      <FAQ />
 
       <Footer />
     </div>
