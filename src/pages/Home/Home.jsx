@@ -18,6 +18,7 @@ const Home = () => {
       <Banner />
       <div className="mt-10">
         <h1 className="text-4xl text-center font-bold text-sky-950">Services</h1>
+        <p className="text-center pt-8 text-lg">You can book if you register...</p>
       </div>
 
       <Element name="serviceCard" className="flex flex-wrap justify-center p-5 gap-5 mb-10">

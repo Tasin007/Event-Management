@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { Link as ScrollLink, Element } from 'react-scroll';
+import { Link as ScrollLink,  } from 'react-scroll';
 import { AuthContext } from '../../Context/AuthProvider';
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -169,7 +169,7 @@ const Navbar = () => {
               ) : (
                 <>
                 <div className="w-10 rounded-full">
-              <img src="../../../public/profile.png" alt="Profile" />
+              <img src="https://i.ibb.co/2KCpJWc/profile.png" alt="Profile" />
             </div>
                 </>
               )

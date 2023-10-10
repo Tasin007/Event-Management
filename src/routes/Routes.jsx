@@ -5,7 +5,6 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import NotFound from "../pages/NotFound/NotFound";
 import AboutUs from "../pages/Shared/AboutUs"; 
-import ServiceCard from "../pages/Shared/ServiceCard";
 import PrivateRoute from "../pages/PrivateRoute";
 import ServiceDetails from "../pages/Shared/ServiceDetails";
 import Gallery from "../pages/Gallery";

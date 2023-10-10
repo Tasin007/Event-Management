@@ -10,13 +10,13 @@ const Review = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-center mb-8">Feedback from Our Community</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white shadow rounded-lg p-8">
+              <div data-aos="fade-down-right" className="bg-white shadow rounded-lg p-8">
                 <p className="text-gray-700 mb-4">
                   "Attending the Health Workshop was a fantastic experience! I learned so much from the expert instructors and gained valuable insights into maintaining a healthy lifestyle. Whether you're a beginner or health enthusiast, this workshop is a must-attend."
                 </p>
                 <p className="text-gray-700 font-medium">- John Doe</p>
               </div>
-              <div className="bg-white shadow rounded-lg p-8">
+              <div data-aos="fade-down-right" className="bg-white shadow rounded-lg p-8">
                 <p className="text-gray-700 mb-4">
                   "The Wellness Retreat was an absolute delight! The activities were diverse, and the atmosphere was peaceful. I had a fantastic time rejuvenating and connecting with like-minded individuals. I can't wait for the next retreat!"
                 </p>
@@ -24,7 +24,7 @@ const Review = () => {
                   - Jane Smith
                 </p>
               </div>
-              <div className="bg-white shadow rounded-lg p-8">
+              <div data-aos="fade-down-right" className="bg-white shadow rounded-lg p-8">
                 <p className="text-gray-700 mb-4">
                   "The Nutrition Workshop provided valuable insights into maintaining a balanced diet. I learned about healthy eating habits and nutritious meal planning. The workshop was both educational and practical."
                 </p>
@@ -32,7 +32,7 @@ const Review = () => {
                   - Mark Johnson
                 </p>
               </div>
-              <div className="bg-white shadow rounded-lg p-8">
+              <div data-aos="fade-down-right" className="bg-white shadow rounded-lg p-8">
                 <p className="text-gray-700 mb-4">
                   "The Fitness Bootcamp was an intense fitness experience! The trainers pushed us to our limits, and I left feeling stronger and more motivated than ever. I'm definitely enrolling in the next bootcamp!"
                 </p>
@@ -40,7 +40,7 @@ const Review = () => {
                   - Emily Davis
                 </p>
               </div>
-              <div className="bg-white shadow rounded-lg p-8">
+              <div data-aos="fade-down-right" className="bg-white shadow rounded-lg p-8">
                 <p className="text-gray-700 mb-4">
                   "The Wellness Webinars were informative and eye-opening. I attended sessions on various health topics and gained valuable knowledge to improve my well-being. It's a fantastic way to stay informed."
                 </p>
